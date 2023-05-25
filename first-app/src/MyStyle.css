@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Dokdo&family=Dongle:wght@300&family=Nanum+Myeongjo&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+    .photo {
+      animation: App-logo-spin infinite 0.1s linear;
+    }
+    .msg1{
+        animation: App-logo-spin infinite 0.1s linear reverse;
+    }
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(-1500);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  .photo1 {
+    animation: slide alternate infinite 0.05s linear;
+  }
+
+
+.title{
+    font-family: cursive;
+    font-size: 25px;
+    border: 3px groove palevioletred;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.photo{
+    box-shadow: 5px 5px 5px 5px orange;
+    border: 3px inset purple;
+    width: 200px;
+}
+
+.msg1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-shadow: 3px 3px 3px gray;
+}
+
+.stylenum{
+  font-size: 60px;
+  color: red;
+  text-shadow: 3px 3px 3px gray;
+  font-family: 'Black And White Picture', sans-serif;
+}
