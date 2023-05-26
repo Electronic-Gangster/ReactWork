@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1.one{
+  color: plum;
+}
+
+h1.two {
+  text-shadow: 2px 2px 2px red;
+}
+
+.fontstyle{
+  height: 120px;
+  line-height: 120px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+}
+
+@keyframes App-logo-flip {
+  0% {
+    transform: perspective(1000px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(1000px) rotateX(180deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateX(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-flip infinite 1s linear;
+  }
+  .App-logo2 {
+    animation: App-logo-flip infinite 0.2s linear reverse;
+  }
+}
+
+
+
+.circle{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px gray;
+  float: left;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.photo{
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+  height: 300px;
+  border: 5px solid orange;
+  border-radius: 20px;
+  background-color: skyblue;
+}
+
+.photo img{
+  width: 120px;
+}
+
+.circle2{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px gray;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
