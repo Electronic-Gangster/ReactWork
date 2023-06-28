@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.rowstyle{
+  text-align: left;
+  width: 500px;
+  height: 130px;
+  border: 3px solid gray;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.rowstyle .day{
+  float: right;
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.bb {
+  animation: bounce 0.5s infinite;
+}
